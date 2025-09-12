@@ -10,13 +10,13 @@ public class AvaliarAlunos {
             System.out.printf("Estudante %2d: ", i + 1);
             vetor[i] = entrada.nextInt();
         }        
-        double media = calculaMedia(vetor);
+        double media = calcularMediaTurma(vetor);
         System.out.println("Média das notas: " + media);
         imprimirResultados(vetor);
 
     }
 
-    public static double calculaMedia(int[] vetor){
+    public static double calcularMediaTurma(int[] vetor){
        double soma = 0;
        int qtde = 0;
        for (int i = 0; i < vetor.length; i++){
