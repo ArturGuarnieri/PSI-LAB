@@ -21,7 +21,7 @@ public class ExemploVetor{
             }
        } 
        return qtde;
-    }7
+    }
 
     public static int[] criaVetor(int n){
         Scanner entrada = new Scanner(System.in);
@@ -43,3 +43,4 @@ public class ExemploVetor{
     }
 
 }
+
