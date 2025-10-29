@@ -1,5 +1,3 @@
-package Aula_Teorica_Biblioteca_Heranca;
-
 public class Main {
     public static void main(String[] args) {
         Biblioteca bibliMack = new Biblioteca();
